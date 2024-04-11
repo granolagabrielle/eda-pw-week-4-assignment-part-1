@@ -21,15 +21,15 @@ function helloName(name) {
 console.log(helloName('Gabrielle'));
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber, secondNumber) {
+function addNumbers(x, y) {
   // return firstNumber + secondNumber;
-  return firstNumber + secondNumber;
+  return x + y;
 }
 console.log(addNumbers(10, 7));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree(numberOne, numberTwo, numberThree) {
-return numberOne * numberTwo * numberThree;
+function multiplyThree(a, b, c) {
+return a * b * c;
 }
 console.log(multiplyThree(1, 2, 10));
 
@@ -49,9 +49,7 @@ console.log(isPositive(5));
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
 function getLast(array) {
-
 }
-
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
